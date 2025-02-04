@@ -40,7 +40,7 @@ do it only once, and then use received token.
 Step 2 (and consequent):
 `Authorization: Token 1af538baa9045a84c0e889f672baf83ff24`
 or
-`http://hackazon.dev/api/?_token=1af538baa9045a84c0e889f672baf83ff24&other_params...`
+`http://finalpwn.dev/api/?_token=1af538baa9045a84c0e889f672baf83ff24&other_params...`
 
 ## Content Type
 
@@ -75,7 +75,7 @@ Each consequent parameter is optional, the mandatory is only `/api` part, as an 
 
 ```
 
-    GET http://hackazon.dev/api/order/1/addresses HTTP/1.1
+    GET http://finalpwn.dev/api/order/1/addresses HTTP/1.1
 ```
 
 ## Methods
@@ -121,7 +121,7 @@ Incorrect response just raises an error message (with corresponding status):
 Request:
 
 ```
-    http://hackazon.dev/api/incorrect_path/10
+    http://finalpwn.dev/api/incorrect_path/10
 ```
 
 Response:
@@ -135,7 +135,7 @@ Fetches the collection or a resource(sub-resources):
 Request:
 
 ```
-    http://hackazon.dev/api/order?_format=xml
+    http://finalpwn.dev/api/order?_format=xml
 ```
 
 Response:
@@ -182,7 +182,7 @@ Request:
 
 ```
 
-    http://hackazon.dev/api/order/1
+    http://finalpwn.dev/api/order/1
 ```
 
 Response:
@@ -222,7 +222,7 @@ Fetch (predefined) collection of order addresses.
 
 ```
 
-    http://hackazon.dev/api/order/1/addresses
+    http://finalpwn.dev/api/order/1/addresses
 ```
 
 All operations with addresses are possible if you are its owner (It's checked in Order controller).
@@ -243,7 +243,7 @@ If everything is OK, new resource is created and returned in the body of the res
 
 ```
 
-    POST http://hackazon.dev/api/order HTTP/1.1
+    POST http://finalpwn.dev/api/order HTTP/1.1
     ... headers...
     Content-Type: application/xml
     Authorization: Token ...............
@@ -268,7 +268,7 @@ of the object.
 
 ```
 
-    PUT http://hackazon.dev/api/order/1 HTTP/1.1
+    PUT http://finalpwn.dev/api/order/1 HTTP/1.1
 ```
 
 **PATCH** method also updates a resource like PUT, but its body do not have to hold all fields.
@@ -276,7 +276,7 @@ It can send just one (or another needed count) field.
 
 ```
 
-    PATCH http://hackazon.dev/api/order/1 HTTP/1.1
+    PATCH http://finalpwn.dev/api/order/1 HTTP/1.1
 ```
 
 All these methods return modified or created resource in the response.
@@ -287,7 +287,7 @@ This method is very simple. It just deletes the resource and returns no content.
 
 ```
 
-    DELETE http://hackazon.dev/api/order/1 HTTP/1.1
+    DELETE http://finalpwn.dev/api/order/1 HTTP/1.1
 ```
 
 ## Config

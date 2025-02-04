@@ -2,8 +2,8 @@
     "swagger": "2.0",
     "info": {
         "version": "1.0.1",
-        "title": "Hackazon Mobile API",
-        "description": "#### Shopping API for Hackazon: Android mobile Application \n"
+        "title": "finalpwn Mobile API",
+        "description": "#### Shopping API for finalpwn: Android mobile Application \n"
     },
     "schemes": [
         "http"
@@ -26,7 +26,7 @@
     "produces": [
         "application/json"
     ],
-    "host": "hackazon.webscantest.com",
+    "host": "finalpwn.webscantest.com",
     "basePath": "/",
     "paths": {
         "/api/auth": {

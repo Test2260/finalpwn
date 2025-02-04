@@ -19,20 +19,20 @@
             "modules/gwtphp/classes/",
             "modules/amfphp/classes/",
             "classes/PDOV",
-            "modules/gwtphp/gwtphp-maps/com/ntobjectives/hackazon/helpdesk/client/entity",
-            "modules/gwtphp/gwtphp-maps/com/ntobjectives/hackazon/helpdesk/client",
+            "modules/gwtphp/gwtphp-maps/com/ntobjectives/finalpwn/helpdesk/client/entity",
+            "modules/gwtphp/gwtphp-maps/com/ntobjectives/finalpwn/helpdesk/client",
             "vendor/gwtphp/gwtphp/src/maps/java/util"
         ],
-        "files": ["vendor/hackazon/amfphp/Amfphp/ClassLoader.php"]
+        "files": ["vendor/finalpwn/amfphp/Amfphp/ClassLoader.php"]
     },
     "repositories": [
         {
             "type": "package",
             "package": {
-                "name": "hackazon/amfphp",
+                "name": "finalpwn/amfphp",
                 "version": "dev-master",
                 "dist": {
-                    "url": "https://github.com/hackazon/amfphp-2.0/archive/core.zip",
+                    "url": "https://github.com/finalpwn/amfphp-2.0/archive/core.zip",
                     "type": "zip"
                 }
             }
@@ -46,7 +46,7 @@
         "phpixie/email": "dev-master#0fd099ecc71260a84ef7eba75533e9b744601310",
         "phpixie/paginate":"dev-master#dfc904855998f7b49f25a127041a3968d513cff1",
         "gwtphp/gwtphp": "dev-master#9b204c62fa8706f7833f0b58df1c3a62fc3d578a",
-        "hackazon/amfphp": "dev-master",
+        "finalpwn/amfphp": "dev-master",
         "doctrine/annotations": "1.2.1",
         "symfony/form": "2.5.7",
         "symfony/validator": "2.6.1",

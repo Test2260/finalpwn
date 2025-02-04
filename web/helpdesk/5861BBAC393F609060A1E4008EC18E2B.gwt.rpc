@@ -2,11 +2,11 @@ com.google.gwt.i18n.shared.impl.DateRecord, true, true, true, true, com.google.g
 com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException, true, true, true, true, com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException/3936916533, 3936916533
 com.google.gwt.user.client.rpc.RpcTokenException, true, true, false, false, com.google.gwt.user.client.rpc.RpcTokenException/2345075298, 2345075298
 com.google.gwt.user.client.rpc.XsrfToken, false, false, true, true, com.google.gwt.user.client.rpc.XsrfToken/4254043109, 4254043109
-com.ntobjectives.hackazon.helpdesk.client.HelpdeskService, false, false, false, false, _, 1942400728
-com.ntobjectives.hackazon.helpdesk.client.entity.ApplicationData, true, true, false, false, com.ntobjectives.hackazon.helpdesk.client.entity.ApplicationData/3860996832, 3860996832
-com.ntobjectives.hackazon.helpdesk.client.entity.Enquiry, true, true, true, true, com.ntobjectives.hackazon.helpdesk.client.entity.Enquiry/1412794674, 1412794674
-com.ntobjectives.hackazon.helpdesk.client.entity.EnquiryMessage, true, true, true, true, com.ntobjectives.hackazon.helpdesk.client.entity.EnquiryMessage/689768322, 689768322
-com.ntobjectives.hackazon.helpdesk.client.entity.User, true, true, true, true, com.ntobjectives.hackazon.helpdesk.client.entity.User/363666882, 363666882
+com.ntobjectives.finalpwn.helpdesk.client.HelpdeskService, false, false, false, false, _, 1942400728
+com.ntobjectives.finalpwn.helpdesk.client.entity.ApplicationData, true, true, false, false, com.ntobjectives.finalpwn.helpdesk.client.entity.ApplicationData/3860996832, 3860996832
+com.ntobjectives.finalpwn.helpdesk.client.entity.Enquiry, true, true, true, true, com.ntobjectives.finalpwn.helpdesk.client.entity.Enquiry/1412794674, 1412794674
+com.ntobjectives.finalpwn.helpdesk.client.entity.EnquiryMessage, true, true, true, true, com.ntobjectives.finalpwn.helpdesk.client.entity.EnquiryMessage/689768322, 689768322
+com.ntobjectives.finalpwn.helpdesk.client.entity.User, true, true, true, true, com.ntobjectives.finalpwn.helpdesk.client.entity.User/363666882, 363666882
 java.lang.Boolean, true, true, false, false, java.lang.Boolean/476441737, 476441737
 java.lang.Exception, true, false, true, false, java.lang.Exception/1920171873, 1920171873
 java.lang.IllegalArgumentException, true, true, false, false, java.lang.IllegalArgumentException/1755012560, 1755012560

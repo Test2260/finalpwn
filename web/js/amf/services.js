@@ -9,7 +9,7 @@ amfphp.services = {};
 /**
  * set by default to server url with which the code was generated. The contentType parameter is to make sure the server interprets the request as JSON
  * */
-amfphp.entryPointUrl = (App.config.host || "http://hackazon.com") + "/amf?contentType=application/json";
+amfphp.entryPointUrl = (App.config.host || "http://finalpwn.com") + "/amf?contentType=application/json";
 
 /** 
 *   Coupon service. Provides method for operating vouchers

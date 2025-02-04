@@ -9,7 +9,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
     </button>
-    <a class="navbar-brand" href="/admin/">Hackazon Admin<?='';//(isset($pageTitle) ? " &mdash; " . $pageTitle : "") ?></a>
+    <a class="navbar-brand" href="/admin/">finalpwn Admin<?='';//(isset($pageTitle) ? " &mdash; " . $pageTitle : "") ?></a>
 </div>
 <!-- /.navbar-header -->
 

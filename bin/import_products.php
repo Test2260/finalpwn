@@ -10,7 +10,7 @@ if ($path = $_SERVER['argv'][1]) {
     $path = getcwd() . DIRECTORY_SEPARATOR . preg_replace('#^[\\\\/]+#', '', $path);
 
 } else {
-    $path = __DIR__ . '/../Hackazon';
+    $path = __DIR__ . '/../finalpwn';
 }
 
 echo "Your path is: $path \n";

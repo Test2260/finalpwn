@@ -141,11 +141,11 @@ class User extends BaseModel {
         if ($user->loaded()) {
             $host = $_SERVER['HTTP_HOST'] ? 'http://'.$_SERVER['HTTP_HOST'] : '';
             $host = $host ?: $this->pixie->config->get('parameters.host');
-            $host = $host ?: 'http://hackazon.com';
+            $host = $host ?: 'http://finalpwn.com';
 
             return array(
                 'to' => $email instanceof VulnerableField ? $email->raw() : $email,
-                'from' => 'RobotHackazon@hackazon.com',
+                'from' => 'Robotfinalpwn@finalpwn.com',
                 'subject' => 'recovering password',
                 'text' => 'Hello, ' . $user->username . ".\nRecovering link is here "
                     . $host . '/user/recover?recover=' . $this->getTempPassword($user),

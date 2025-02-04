@@ -199,12 +199,12 @@ return [
 
 To hack the page on Windows you can use: 
 ```
-http://hackazon.dev/page/show?page=terms.html%20%26%26%20dir%20c:\
+http://finalpwn.dev/page/show?page=terms.html%20%26%26%20dir%20c:\
 ```
 
 On Linux the same should be as follows:
 ```
-http://hackazon.dev/page/show?page=terms.html%20%2620ls%20%2F
+http://finalpwn.dev/page/show?page=terms.html%20%2620ls%20%2F
 ```
 
 ## Arbitrary File Upload
@@ -212,7 +212,7 @@ http://hackazon.dev/page/show?page=terms.html%20%2620ls%20%2F
 Allows to enable or disable the possibility to upload either only allowed file types or arbitrary ones.
 In this app it is implemented on the user photo upload page:
 ```
-http://hackazon.dev/account/profile/edit
+http://finalpwn.dev/account/profile/edit
 ```
 
 It is enabled in account controller config:
@@ -233,12 +233,12 @@ return [
 RFI Injection allows to use an app logic where the app includes some file based on user input.
 In our app it's implemented in the Help Articles section:
 ```
-http://hackazon.dev/account/help_articles?page=add_product_to_cart
+http://finalpwn.dev/account/help_articles?page=add_product_to_cart
 ```
 
 Vulnerability can be used as such:
 ```
-http://hackazon.dev/account/help_articles?page=/etc/passwd%00
+http://finalpwn.dev/account/help_articles?page=/etc/passwd%00
 ```
 
 It is enabled in account controller config:
